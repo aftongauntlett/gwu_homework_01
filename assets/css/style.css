@@ -19,9 +19,10 @@ body {
     display: inline-block;
     font-size: 48px;
 }
+/* changed color for "seo" to a lighter color for easier viewing */
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #09edf5;
 }
 
 .header div {
@@ -104,7 +105,9 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* removed exra lines and replaced with "content-item" to remove duplicate lines of code. */
+
+.content-item {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -113,33 +116,17 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* replaced "." with "#" */
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+#search-engine-optimization img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+#social-media-marketing img {
     max-height: 200px;
 }
 
