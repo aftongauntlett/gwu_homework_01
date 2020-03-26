@@ -110,40 +110,25 @@ p {
 .content-item {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    min-height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* removed extra lines and replaced with "content-item img" and "content-item h2"  */
+
+.content-item img {
+    max-height: 200px;
+}
+
+.content-item h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* replaced "." with "#" */
 
-#search-engine-optimization img {
-    max-height: 200px;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-#social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
@@ -155,3 +140,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
