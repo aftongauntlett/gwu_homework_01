@@ -22,7 +22,7 @@ body {
 /* changed color for "seo" to a lighter color for easier viewing */
 
 .header h1 .seo {
-    color: #09edf5;
+    color: #0be3ff;
 }
 
 .header div {
@@ -53,7 +53,7 @@ p {
 
 .hero {
     height: 800px;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
@@ -63,17 +63,20 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    max-width: 100%;
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    max-width: 100%;
 }
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    max-width: 100%;
 }
 
 .benefits {
@@ -120,14 +123,13 @@ p {
 
 .content-item img {
     max-height: 200px;
+    max-width: 100%;
 }
 
 .content-item h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* replaced "." with "#" */
 
 
 .footer {
@@ -141,3 +143,26 @@ p {
     font-size: 20px;
 }
 
+/* added @media to make zooming in to 400% easier to read.  */
+
+@media (max-width: 1000px){
+    .hero{
+        height: 500px;
+    }
+}
+
+@media (max-width: 500px){
+    .hero{
+        height: 200px;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .benefits {
+        width: auto;
+        margin-right: 0;
+    }
+}
