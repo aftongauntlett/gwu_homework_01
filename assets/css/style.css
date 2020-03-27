@@ -15,10 +15,12 @@ ul {
     margin: 0;
     padding: 0;
     background-color: #2a607c;
+    
   }
   
   li {
-    display: inline-block
+    display: inline-block;
+    
   }
   
   li a {
@@ -26,11 +28,12 @@ ul {
     color: aliceblue;
     padding: 1.7vh 1.8vh;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   li a:hover {
-    background-color: black;
+    text-decoration: underline;
   }
 
 .header {
@@ -51,7 +54,6 @@ ul {
 }
 
 .header div {
-    padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
