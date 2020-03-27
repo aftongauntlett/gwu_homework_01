@@ -8,6 +8,31 @@ body {
     background-color: #d9dcd6;
 }
 
+/* thanks so much Dan, this was the last thing I was stuck on!! - added ul and li styling for zooming in.*/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2a607c;
+  }
+  
+  li {
+    display: inline-block
+  }
+  
+  li a {
+    display: block;
+    color: aliceblue;
+    padding: 1.7vh 1.8vh;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
